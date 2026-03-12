@@ -1,0 +1,50 @@
+[1.385s] Invoking command in '/home/shini/ros2_ws/src/robot_sim': PYTHONPATH=/home/shini/ros2_ws/build/robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sim build --build-base /home/shini/ros2_ws/build/robot_sim/build install --record /home/shini/ros2_ws/build/robot_sim/install.log --single-version-externally-managed install_data
+[1.566s] running egg_info
+[1.579s] writing ../../build/robot_sim/robot_sim.egg-info/PKG-INFO
+[1.582s] writing dependency_links to ../../build/robot_sim/robot_sim.egg-info/dependency_links.txt
+[1.582s] writing entry points to ../../build/robot_sim/robot_sim.egg-info/entry_points.txt
+[1.583s] writing requirements to ../../build/robot_sim/robot_sim.egg-info/requires.txt
+[1.583s] writing top-level names to ../../build/robot_sim/robot_sim.egg-info/top_level.txt
+[1.609s] reading manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'
+[1.610s] writing manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'
+[1.611s] running build
+[1.611s] running build_py
+[1.611s] copying robot_sim/astar.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+[1.612s] copying robot_sim/grid_builder.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+[1.612s] copying robot_sim/__init__.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+[1.615s] copying robot_sim/pid_controller.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+[1.616s] copying robot_sim/nodes/obstacle_avoider.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+[1.617s] copying robot_sim/nodes/obstacle_detector.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+[1.619s] copying robot_sim/nodes/cmd_vel_mixer.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+[1.620s] copying robot_sim/nodes/navigator.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+[1.620s] copying robot_sim/nodes/vision_node.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+[1.621s] copying robot_sim/nodes/__init__.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+[1.622s] running install
+[1.625s] running install_lib
+[1.640s] running install_data
+[1.640s] copying resource/robot_sim -> /home/shini/ros2_ws/install/robot_sim/share/ament_index/resource_index/packages
+[1.641s] copying package.xml -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim
+[1.642s] copying launch/vision.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.648s] copying launch/navigation.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.648s] copying launch/spawn_stable_4wd.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.648s] copying launch/teleop_with_avoider.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.648s] copying launch/avoider.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.649s] copying launch/stable_4wd_world.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.649s] copying launch/nav2.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.649s] copying launch/slam.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.649s] copying config/nav2_params.yaml -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/config
+[1.649s] copying config/slam_params.yaml -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/config
+[1.650s] creating /home/shini/ros2_ws/install/robot_sim/share/robot_sim/models
+[1.650s] creating /home/shini/ros2_ws/install/robot_sim/share/robot_sim/models/stable_4wd_robot
+[1.650s] copying models/stable_4wd_robot/model.sdf -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/models/stable_4wd_robot
+[1.650s] running install_egg_info
+[1.664s] removing '/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim-0.0.0-py3.10.egg-info' (and everything under it)
+[1.666s] Copying ../../build/robot_sim/robot_sim.egg-info to /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim-0.0.0-py3.10.egg-info
+[1.667s] running install_scripts
+[1.776s] Installing cmd_vel_mixer script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.776s] Installing navigator script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.776s] Installing obstacle_avoider script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.776s] Installing obstacle_detector script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.776s] Installing vision_node script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.777s] writing list of installed files to '/home/shini/ros2_ws/build/robot_sim/install.log'
+[1.804s] Invoked command in '/home/shini/ros2_ws/src/robot_sim' returned '0': PYTHONPATH=/home/shini/ros2_ws/build/robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sim build --build-base /home/shini/ros2_ws/build/robot_sim/build install --record /home/shini/ros2_ws/build/robot_sim/install.log --single-version-externally-managed install_data

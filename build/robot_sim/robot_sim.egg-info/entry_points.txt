@@ -1,0 +1,7 @@
+[console_scripts]
+cmd_vel_mixer = robot_sim.nodes.cmd_vel_mixer:main
+exploration_goal = robot_sim.nodes.exploration_goal_node:main
+navigator = robot_sim.nodes.navigator:main
+obstacle_avoider = robot_sim.nodes.obstacle_avoider:main
+obstacle_detector = robot_sim.nodes.obstacle_detector:main
+vision_node = robot_sim.nodes.vision_node:main

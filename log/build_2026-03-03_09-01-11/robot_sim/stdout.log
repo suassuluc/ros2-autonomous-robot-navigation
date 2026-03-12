@@ -1,0 +1,55 @@
+running egg_info
+creating ../../build/robot_sim/robot_sim.egg-info
+writing ../../build/robot_sim/robot_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_sim/robot_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_sim/robot_sim.egg-info/entry_points.txt
+writing requirements to ../../build/robot_sim/robot_sim.egg-info/requires.txt
+writing top-level names to ../../build/robot_sim/robot_sim.egg-info/top_level.txt
+writing manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shini/ros2_ws/build/robot_sim/build
+creating /home/shini/ros2_ws/build/robot_sim/build/lib
+creating /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+copying robot_sim/astar.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+copying robot_sim/grid_builder.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+copying robot_sim/__init__.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+copying robot_sim/pid_controller.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+creating /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+copying robot_sim/nodes/obstacle_detector.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+copying robot_sim/nodes/navigator.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+copying robot_sim/nodes/__init__.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+running install
+running install_lib
+creating /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim
+creating /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/nodes
+copying /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes/obstacle_detector.py -> /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/nodes
+copying /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes/navigator.py -> /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/nodes
+copying /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes/__init__.py -> /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/nodes
+copying /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/astar.py -> /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim
+copying /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/grid_builder.py -> /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim
+copying /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/__init__.py -> /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim
+copying /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/pid_controller.py -> /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim
+byte-compiling /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/nodes/obstacle_detector.py to obstacle_detector.cpython-310.pyc
+byte-compiling /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/nodes/navigator.py to navigator.cpython-310.pyc
+byte-compiling /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/nodes/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/astar.py to astar.cpython-310.pyc
+byte-compiling /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/grid_builder.py to grid_builder.cpython-310.pyc
+byte-compiling /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim/pid_controller.py to pid_controller.cpython-310.pyc
+running install_data
+creating /home/shini/ros2_ws/install/robot_sim/share/ament_index
+creating /home/shini/ros2_ws/install/robot_sim/share/ament_index/resource_index
+creating /home/shini/ros2_ws/install/robot_sim/share/ament_index/resource_index/packages
+copying resource/robot_sim -> /home/shini/ros2_ws/install/robot_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim
+creating /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+copying launch/navigation.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+running install_egg_info
+Copying ../../build/robot_sim/robot_sim.egg-info to /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim-0.0.0-py3.10.egg-info
+running install_scripts
+Installing navigator script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+Installing obstacle_detector script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+writing list of installed files to '/home/shini/ros2_ws/build/robot_sim/install.log'

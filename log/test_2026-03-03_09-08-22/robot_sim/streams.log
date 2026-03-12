@@ -1,0 +1,21 @@
+[0.270s] Invoking command in '/home/shini/ros2_ws/src/robot_sim': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shini/ros2_ws/build/robot_sim/pytest.xml --junit-prefix=robot_sim -o cache_dir=/home/shini/ros2_ws/build/robot_sim/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[0.967s] ============================= test session starts ==============================
+[0.967s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.967s] cachedir: /home/shini/ros2_ws/build/robot_sim/.pytest_cache
+[0.967s] rootdir: /home/shini/ros2_ws/src/robot_sim
+[0.967s] plugins: ament-lint-0.12.15, ament-pep257-0.12.15, ament-xmllint-0.12.15, launch-testing-ros-0.19.13, launch-testing-1.0.14, ament-copyright-0.12.15, ament-flake8-0.12.15, anyio-4.4.0, colcon-core-0.20.1, cov-3.0.0
+[0.967s] collected 3 items
+[0.967s] 
+[0.972s] test/test_copyright.py s                                                 [ 33%]
+[1.118s] test/test_flake8.py .                                                    [ 66%]
+[1.168s] 
+[1.168s] =============================== warnings summary ===============================
+[1.168s] test/test_flake8.py::test_flake8
+[1.168s] test/test_flake8.py::test_flake8
+[1.168s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.168s] 
+[1.168s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.168s] test/test_pep257.py .                                                    [100%]
+[1.168s] ------ generated xml file: /home/shini/ros2_ws/build/robot_sim/pytest.xml ------
+[1.168s] =================== 2 passed, 1 skipped, 2 warnings in 0.32s ===================
+[1.284s] Invoked command in '/home/shini/ros2_ws/src/robot_sim' returned '0': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shini/ros2_ws/build/robot_sim/pytest.xml --junit-prefix=robot_sim -o cache_dir=/home/shini/ros2_ws/build/robot_sim/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

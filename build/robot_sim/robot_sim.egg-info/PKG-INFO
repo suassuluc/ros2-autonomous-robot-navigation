@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: robot-sim
+Version: 0.0.0
+Summary: Pacote de simulação: detecção de obstáculos, A*, PID e navegação autônoma.
+Maintainer: shini
+Maintainer-email: suassunalucas8@gmail.com
+License: Apache-2.0
+Requires-Dist: setuptools
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"

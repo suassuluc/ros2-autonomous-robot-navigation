@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.001557] (robot_sim) JobQueued: {'identifier': 'robot_sim', 'dependencies': OrderedDict([('robot_sim', '/home/shini/ros2_ws/install/robot_sim')])}
+[0.002733] (robot_sim) JobStarted: {'identifier': 'robot_sim'}
+[0.098717] (-) TimerEvent: {}
+[0.198980] (-) TimerEvent: {}
+[0.299377] (-) TimerEvent: {}
+[0.399721] (-) TimerEvent: {}
+[0.500180] (-) TimerEvent: {}
+[0.600658] (-) TimerEvent: {}
+[0.701193] (-) TimerEvent: {}
+[0.801655] (-) TimerEvent: {}
+[0.822325] (robot_sim) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/shini/ros2_ws/src/robot_sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/lucas/AppData/Local/Programs/cursor', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'shini', 'PHP_INI_SCAN_DIR': '/home/shini/.config/herd-lite/bin:/home/shini/.config/herd-lite/bin:', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'CI': '1', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/shini', 'OLDPWD': '/home/shini/ros2_ws', 'NVM_BIN': '/home/shini/.nvm/versions/node/v22.15.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30b91047-0c6a-44e6-a72f-27b81da03f79.sock', 'NVM_INC': '/home/shini/.nvm/versions/node/v22.15.0/include/node', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/shini/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/shini/ros2_ws/install', 'ROS_DISTRO': 'humble', 'OVSX_REGISTRY_URL': 'https://open-vsx.org', 'LOGNAME': 'shini', 'FORCE_COLOR': '0', 'NAME': 'lucasnote', 'WSL_INTEROP': '/run/WSL/1708_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'dumb', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/shini/.local/bin:/home/shini/.config/herd-lite/bin:/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/bin/remote-cli:/home/shini/.local/bin:/opt/ros/humble/bin:/home/shini/.config/herd-lite/bin:/home/shini/.nvm/versions/node/v22.15.0/bin:/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/xampp/php:/mnt/c/composer:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/lucas/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/lucas/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Nefarius Software Solutions/Nefarius VirtualPad Driver Runtime/runtime/x64:/mnt/c/Users/lucas/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/lucas/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/lucas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lucas/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/lucas/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lucas/AppData/Roaming/npm:/mnt/c/Users/lucas/AppData/Local/Programs/cursor/resources/app/bin:/mnt/d/SteamLibrary/steamapps/common/DSX/Main_v3_Beta/:/mnt/d/SteamLibrary/steamapps/common/DSX/Main_v3_Beta/Console:/snap/bin', 'WT_SESSION': '2c01c7e5-225d-47e2-8b55-9aa32fb1e31e', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/shini/ros2_ws/install/robot_sim:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/shini/ros2_ws/build/robot_sim', 'TURTLEBOT3_MODEL': 'burger', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', '_ZO_DOCTOR': '0', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/shini/ros2_ws/build/robot_sim/pytest.xml --junit-prefix=robot_sim -o cache_dir=/home/shini/ros2_ws/build/robot_sim/.pytest_cache'}, 'shell': False}
+[0.901942] (-) TimerEvent: {}
+[1.002373] (-) TimerEvent: {}
+[1.102812] (-) TimerEvent: {}
+[1.203222] (-) TimerEvent: {}
+[1.303702] (-) TimerEvent: {}
+[1.404122] (-) TimerEvent: {}
+[1.504665] (-) TimerEvent: {}
+[1.605123] (-) TimerEvent: {}
+[1.705564] (-) TimerEvent: {}
+[1.805962] (-) TimerEvent: {}
+[1.906410] (-) TimerEvent: {}
+[2.006796] (-) TimerEvent: {}
+[2.107129] (-) TimerEvent: {}
+[2.207476] (-) TimerEvent: {}
+[2.307944] (-) TimerEvent: {}
+[2.370485] (robot_sim) StdoutLine: {'line': b'============================= test session starts ==============================\n'}
+[2.371184] (robot_sim) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[2.372110] (robot_sim) StdoutLine: {'line': b'cachedir: /home/shini/ros2_ws/build/robot_sim/.pytest_cache\n'}
+[2.372296] (robot_sim) StdoutLine: {'line': b'rootdir: /home/shini/ros2_ws/src/robot_sim\n'}
+[2.372456] (robot_sim) StdoutLine: {'line': b'plugins: ament-lint-0.12.15, ament-pep257-0.12.15, ament-xmllint-0.12.15, launch-testing-ros-0.19.13, launch-testing-1.0.14, ament-copyright-0.12.15, ament-flake8-0.12.15, anyio-4.4.0, colcon-core-0.20.1, cov-3.0.0\n'}
+[2.372612] (robot_sim) StdoutLine: {'line': b'collected 3 items\n'}
+[2.372736] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.387207] (robot_sim) StdoutLine: {'line': b'test/test_copyright.py s                                                 [ 33%]\n'}
+[2.408080] (-) TimerEvent: {}
+[2.508560] (-) TimerEvent: {}
+[2.608993] (-) TimerEvent: {}
+[2.709414] (-) TimerEvent: {}
+[2.772543] (robot_sim) StdoutLine: {'line': b'test/test_flake8.py F                                                    [ 66%]\n'}
+[2.809725] (-) TimerEvent: {}
+[2.886346] (robot_sim) StderrLine: {'line': b'=============================== warnings summary ===============================\n'}
+[2.886645] (robot_sim) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[2.886722] (robot_sim) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[2.886802] (robot_sim) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[2.887065] (robot_sim) StderrLine: {'line': b'\n'}
+[2.887164] (robot_sim) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[2.888152] (robot_sim) StdoutLine: {'line': b'test/test_pep257.py F                                                    [100%]\n'}
+[2.888592] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.888748] (robot_sim) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[2.888964] (robot_sim) StdoutLine: {'line': b'_________________________________ test_flake8 __________________________________\n'}
+[2.889155] (robot_sim) StdoutLine: {'line': b'test/test_flake8.py:23: in test_flake8\n'}
+[2.889296] (robot_sim) StdoutLine: {'line': b'    assert rc == 0, \\\n'}
+[2.889656] (robot_sim) StdoutLine: {'line': b'E   AssertionError: Found 9 code style errors / warnings:\n'}
+[2.889952] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/astar.py:105:100: E501 line too long (106 > 99 characters)\n'}
+[2.890236] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/nodes/navigator.py:45:100: E501 line too long (100 > 99 characters)\n'}
+[2.890467] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/nodes/navigator.py:64:100: E501 line too long (115 > 99 characters)\n'}
+[2.890608] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/nodes/navigator.py:76:100: E501 line too long (102 > 99 characters)\n'}
+[2.890715] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/nodes/navigator.py:93:100: E501 line too long (117 > 99 characters)\n'}
+[2.890873] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/nodes/navigator.py:180:100: E501 line too long (101 > 99 characters)\n'}
+[2.891008] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/nodes/navigator.py:221:100: E501 line too long (133 > 99 characters)\n'}
+[2.891134] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/nodes/navigator.py:229:100: E501 line too long (100 > 99 characters)\n'}
+[2.891258] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/nodes/navigator.py:233:100: E501 line too long (104 > 99 characters)\n'}
+[2.891467] (robot_sim) StdoutLine: {'line': b'E   assert 1 == 0\n'}
+[2.891693] (robot_sim) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[2.891827] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.891947] (robot_sim) StdoutLine: {'line': b'./robot_sim/astar.py:105:100: E501 line too long (106 > 99 characters)\n'}
+[2.892179] (robot_sim) StdoutLine: {'line': b'    """\n'}
+[2.892290] (robot_sim) StdoutLine: {'line': b'    Find the reachable free cell that is closest to goal (BFS from start, then pick min distance to goal).\n'}
+[2.892386] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.892457] (robot_sim) StdoutLine: {'line': b'    Returns\n'}
+[2.892519] (robot_sim) StdoutLine: {'line': b'    -------\n'}
+[2.892587] (robot_sim) StdoutLine: {'line': b'        (row, col) of that cell, or None if start is not free.\n'}
+[2.892689] (robot_sim) StdoutLine: {'line': b'    """\n'}
+[2.892761] (robot_sim) StdoutLine: {'line': b'       \n'}
+[2.892870] (robot_sim) StdoutLine: {'line': b'                                                                                           ^\n'}
+[2.893072] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.893368] (robot_sim) StdoutLine: {'line': b'./robot_sim/nodes/navigator.py:45:100: E501 line too long (100 > 99 characters)\n'}
+[2.893564] (robot_sim) StdoutLine: {'line': b"        self._replan_when_obstacle_sec = float(self.get_parameter('replan_when_obstacle_sec').value)\n"}
+[2.893686] (robot_sim) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[2.893925] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.894095] (robot_sim) StdoutLine: {'line': b'./robot_sim/nodes/navigator.py:64:100: E501 line too long (115 > 99 characters)\n'}
+[2.894260] (robot_sim) StdoutLine: {'line': b'        qos_goal = QoSProfile(depth=10, reliability=ReliabilityPolicy.BEST_EFFORT, history=HistoryPolicy.KEEP_LAST)\n'}
+[2.894390] (robot_sim) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[2.894495] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.894595] (robot_sim) StdoutLine: {'line': b'./robot_sim/nodes/navigator.py:76:100: E501 line too long (102 > 99 characters)\n'}
+[2.894671] (robot_sim) StdoutLine: {'line': b'        # For\xc3\xa7ar tentativa de plano ap\xc3\xb3s 1.5 s (\xc3\xbatil ao reiniciar o launch; d\xc3\xa1 tempo de /odom e /scan)\n'}
+[2.894734] (robot_sim) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[2.894824] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.894887] (robot_sim) StdoutLine: {'line': b'./robot_sim/nodes/navigator.py:93:100: E501 line too long (117 > 99 characters)\n'}
+[2.894962] (robot_sim) StdoutLine: {'line': b"        self.get_logger().info('Novo objetivo recebido: (%.2f, %.2f) \xe2\x80\x94 replanejando.' % (self._goal_x, self._goal_y))\n"}
+[2.895040] (robot_sim) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[2.895114] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.895206] (robot_sim) StdoutLine: {'line': b'./robot_sim/nodes/navigator.py:180:100: E501 line too long (101 > 99 characters)\n'}
+[2.895357] (robot_sim) StdoutLine: {'line': b"                        'Objetivo original bloqueado; indo ao ponto livre mais pr\xc3\xb3ximo (%.2f, %.2f).'\n"}
+[2.895482] (robot_sim) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[2.895582] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.895658] (robot_sim) StdoutLine: {'line': b'./robot_sim/nodes/navigator.py:221:100: E501 line too long (133 > 99 characters)\n'}
+[2.895731] (robot_sim) StdoutLine: {'line': b"        self.get_logger().info('Plano com %d waypoints (objetivo: %.2f, %.2f).' % (len(self._waypoints), self._goal_x, self._goal_y))\n"}
+[2.895892] (robot_sim) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[2.895977] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.896054] (robot_sim) StdoutLine: {'line': b'./robot_sim/nodes/navigator.py:229:100: E501 line too long (100 > 99 characters)\n'}
+[2.896145] (robot_sim) StdoutLine: {'line': b'        # Obst\xc3\xa1culo muito perto: parar e, se est\xc3\xa1vamos seguindo rota, pedir replan (recalcular rota)\n'}
+[2.896221] (robot_sim) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[2.896320] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.896393] (robot_sim) StdoutLine: {'line': b'./robot_sim/nodes/navigator.py:233:100: E501 line too long (104 > 99 characters)\n'}
+[2.896466] (robot_sim) StdoutLine: {'line': b'            if self._waypoints and (now - self._last_obstacle_replan) >= self._replan_when_obstacle_sec:\n'}
+[2.896542] (robot_sim) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[2.896612] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.896682] (robot_sim) StdoutLine: {'line': b'9     E501 line too long (106 > 99 characters)\n'}
+[2.896794] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.896868] (robot_sim) StdoutLine: {'line': b'12 files checked\n'}
+[2.897046] (robot_sim) StdoutLine: {'line': b'9 errors\n'}
+[2.897191] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.897319] (robot_sim) StdoutLine: {'line': b"'E'-type errors: 9\n"}
+[2.897418] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.897511] (robot_sim) StdoutLine: {'line': b'Checked files:\n'}
+[2.897616] (robot_sim) StdoutLine: {'line': b'\n'}
+[2.897812] (robot_sim) StdoutLine: {'line': b'* ./setup.py\n'}
+[2.897953] (robot_sim) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[2.898072] (robot_sim) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[2.898190] (robot_sim) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[2.898301] (robot_sim) StdoutLine: {'line': b'* ./launch/navigation.launch.py\n'}
+[2.898413] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/astar.py\n'}
+[2.898529] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/grid_builder.py\n'}
+[2.898651] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/__init__.py\n'}
+[2.898765] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/pid_controller.py\n'}
+[2.898875] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/nodes/obstacle_detector.py\n'}
+[2.898991] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/nodes/navigator.py\n'}
+[2.899102] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/nodes/__init__.py\n'}
+[2.899220] (robot_sim) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[2.899343] (robot_sim) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[2.899488] (robot_sim) StdoutLine: {'line': b'_________________________________ test_pep257 __________________________________\n'}
+[2.899580] (robot_sim) StdoutLine: {'line': b'test/test_pep257.py:23: in test_pep257\n'}
+[2.899695] (robot_sim) StdoutLine: {'line': b"    assert rc == 0, 'Found code style errors / warnings'\n"}
+[2.899792] (robot_sim) StdoutLine: {'line': b'E   AssertionError: Found code style errors / warnings\n'}
+[2.899870] (robot_sim) StdoutLine: {'line': b'E   assert 1 == 0\n'}
+[2.899952] (robot_sim) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[2.900080] (robot_sim) StdoutLine: {'line': b'checking ./launch/navigation.launch.py\n'}
+[2.900186] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/__init__.py\n'}
+[2.900298] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/astar.py\n'}
+[2.900404] (robot_sim) StdoutLine: {'line': b"./robot_sim/astar.py:104 in public function `nearest_reachable_cell`: D413: Missing blank line after last section ('Returns')\n"}
+[2.900483] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/grid_builder.py\n'}
+[2.900556] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/nodes/__init__.py\n'}
+[2.900628] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/nodes/navigator.py\n'}
+[2.900704] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/nodes/obstacle_detector.py\n'}
+[2.900822] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/pid_controller.py\n'}
+[2.901002] (robot_sim) StdoutLine: {'line': b'checking ./setup.py\n'}
+[2.901145] (robot_sim) StdoutLine: {'line': b'checking ./test/test_copyright.py\n'}
+[2.901278] (robot_sim) StdoutLine: {'line': b'checking ./test/test_flake8.py\n'}
+[2.901401] (robot_sim) StdoutLine: {'line': b'checking ./test/test_pep257.py\n'}
+[2.901546] (robot_sim) StdoutLine: {'line': b'checking test/test_copyright.py\n'}
+[2.901766] (robot_sim) StdoutLine: {'line': b'checking test/test_flake8.py\n'}
+[2.901927] (robot_sim) StdoutLine: {'line': b'checking test/test_pep257.py\n'}
+[2.902057] (robot_sim) StdoutLine: {'line': b'1 errors\n'}
+[2.902189] (robot_sim) StdoutLine: {'line': b'------ generated xml file: /home/shini/ros2_ws/build/robot_sim/pytest.xml ------\n'}
+[2.902311] (robot_sim) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[2.902435] (robot_sim) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 9 code style ...\n'}
+[2.902587] (robot_sim) StdoutLine: {'line': b'FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...\n'}
+[2.902717] (robot_sim) StdoutLine: {'line': b'=================== 2 failed, 1 skipped, 2 warnings in 0.78s ===================\n'}
+[2.909990] (-) TimerEvent: {}
+[3.010586] (-) TimerEvent: {}
+[3.095028] (robot_sim) CommandEnded: {'returncode': 1}
+[3.097626] (robot_sim) TestFailure: {'identifier': 'robot_sim'}
+[3.097725] (robot_sim) JobEnded: {'identifier': 'robot_sim', 'rc': 0}
+[3.098536] (-) EventReactorShutdown: {}

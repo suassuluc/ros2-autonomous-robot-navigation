@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.001214] (robot_sim) JobQueued: {'identifier': 'robot_sim', 'dependencies': OrderedDict()}
+[0.001390] (robot_sim) JobStarted: {'identifier': 'robot_sim'}
+[0.097666] (-) TimerEvent: {}
+[0.198091] (-) TimerEvent: {}
+[0.298594] (-) TimerEvent: {}
+[0.399238] (-) TimerEvent: {}
+[0.499821] (-) TimerEvent: {}
+[0.602646] (-) TimerEvent: {}
+[0.708601] (-) TimerEvent: {}
+[0.809116] (-) TimerEvent: {}
+[0.909684] (-) TimerEvent: {}
+[1.010248] (-) TimerEvent: {}
+[1.110740] (-) TimerEvent: {}
+[1.211431] (-) TimerEvent: {}
+[1.312000] (-) TimerEvent: {}
+[1.412439] (-) TimerEvent: {}
+[1.513053] (-) TimerEvent: {}
+[1.613753] (-) TimerEvent: {}
+[1.714538] (-) TimerEvent: {}
+[1.815021] (-) TimerEvent: {}
+[1.915735] (-) TimerEvent: {}
+[2.016483] (-) TimerEvent: {}
+[2.117370] (-) TimerEvent: {}
+[2.218022] (-) TimerEvent: {}
+[2.318710] (-) TimerEvent: {}
+[2.419872] (-) TimerEvent: {}
+[2.482781] (robot_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_sim', 'build', '--build-base', '/home/shini/ros2_ws/build/robot_sim/build', 'install', '--record', '/home/shini/ros2_ws/build/robot_sim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shini/ros2_ws/src/robot_sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shini', 'PHP_INI_SCAN_DIR': '/home/shini/.config/herd-lite/bin:/home/shini/.config/herd-lite/bin:', 'GIT_ASKPASS': '/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/shini', 'OLDPWD': '/home/shini/ros2_ws', 'TERM_PROGRAM_VERSION': '2.5.26', 'NVM_BIN': '/home/shini/.nvm/versions/node/v22.15.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d651a2e6-80de-4079-9878-f9568cba5dad.sock', 'NVM_INC': '/home/shini/.nvm/versions/node/v22.15.0/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/shini/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shini/ros2_ws/install', 'ROS_DISTRO': 'humble', 'OVSX_REGISTRY_URL': 'https://open-vsx.org', 'LOGNAME': 'shini', 'NAME': 'lucasnote', 'WSL_INTEROP': '/run/WSL/1708_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/shini/.config/herd-lite/bin:/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/bin/remote-cli:/home/shini/.local/bin:/opt/ros/humble/bin:/home/shini/.config/herd-lite/bin:/home/shini/.nvm/versions/node/v22.15.0/bin:/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/xampp/php:/mnt/c/composer:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/lucas/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/lucas/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Nefarius Software Solutions/Nefarius VirtualPad Driver Runtime/runtime/x64:/mnt/c/Users/lucas/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/lucas/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/lucas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lucas/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/lucas/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lucas/AppData/Roaming/npm:/mnt/c/Users/lucas/AppData/Local/Programs/cursor/resources/app/bin:/mnt/d/SteamLibrary/steamapps/common/DSX/Main_v3_Beta/:/mnt/d/SteamLibrary/steamapps/common/DSX/Main_v3_Beta/Console:/snap/bin', 'WT_SESSION': '2c01c7e5-225d-47e2-8b55-9aa32fb1e31e', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-10914b7831.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/shini/ros2_ws/install/robot_sim:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_IPC_AUTH_TOKEN': '3e131956eebd382247ffa36f0140cb28c92b40a438eb28ce18d4009cc485c3af', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/shini/ros2_ws/build/robot_sim', 'TURTLEBOT3_MODEL': 'burger', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shini/ros2_ws/build/robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages:/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[2.519944] (-) TimerEvent: {}
+[2.620422] (-) TimerEvent: {}
+[2.721029] (-) TimerEvent: {}
+[2.821586] (-) TimerEvent: {}
+[2.913855] (robot_sim) StdoutLine: {'line': b'running egg_info\n'}
+[2.921797] (-) TimerEvent: {}
+[2.950547] (robot_sim) StdoutLine: {'line': b'writing ../../build/robot_sim/robot_sim.egg-info/PKG-INFO\n'}
+[2.952555] (robot_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_sim/robot_sim.egg-info/dependency_links.txt\n'}
+[2.954723] (robot_sim) StdoutLine: {'line': b'writing entry points to ../../build/robot_sim/robot_sim.egg-info/entry_points.txt\n'}
+[2.955469] (robot_sim) StdoutLine: {'line': b'writing requirements to ../../build/robot_sim/robot_sim.egg-info/requires.txt\n'}
+[2.956055] (robot_sim) StdoutLine: {'line': b'writing top-level names to ../../build/robot_sim/robot_sim.egg-info/top_level.txt\n'}
+[3.016929] (robot_sim) StdoutLine: {'line': b"reading manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'\n"}
+[3.018663] (robot_sim) StdoutLine: {'line': b"writing manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'\n"}
+[3.019431] (robot_sim) StdoutLine: {'line': b'running build\n'}
+[3.019980] (robot_sim) StdoutLine: {'line': b'running build_py\n'}
+[3.020180] (robot_sim) StdoutLine: {'line': b'copying robot_sim/astar.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim\n'}
+[3.020689] (robot_sim) StdoutLine: {'line': b'copying robot_sim/grid_builder.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim\n'}
+[3.020938] (robot_sim) StdoutLine: {'line': b'copying robot_sim/__init__.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim\n'}
+[3.021443] (robot_sim) StdoutLine: {'line': b'copying robot_sim/pid_controller.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim\n'}
+[3.021615] (robot_sim) StdoutLine: {'line': b'copying robot_sim/nodes/obstacle_detector.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes\n'}
+[3.021928] (-) TimerEvent: {}
+[3.022291] (robot_sim) StdoutLine: {'line': b'copying robot_sim/nodes/navigator.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes\n'}
+[3.022774] (robot_sim) StdoutLine: {'line': b'copying robot_sim/nodes/__init__.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes\n'}
+[3.023959] (robot_sim) StdoutLine: {'line': b'running install\n'}
+[3.038966] (robot_sim) StdoutLine: {'line': b'running install_lib\n'}
+[3.066762] (robot_sim) StdoutLine: {'line': b'running install_data\n'}
+[3.067206] (robot_sim) StdoutLine: {'line': b'copying resource/robot_sim -> /home/shini/ros2_ws/install/robot_sim/share/ament_index/resource_index/packages\n'}
+[3.067730] (robot_sim) StdoutLine: {'line': b'copying package.xml -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim\n'}
+[3.068161] (robot_sim) StdoutLine: {'line': b'copying launch/navigation.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch\n'}
+[3.068293] (robot_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.096314] (robot_sim) StdoutLine: {'line': b"removing '/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.097483] (robot_sim) StdoutLine: {'line': b'Copying ../../build/robot_sim/robot_sim.egg-info to /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim-0.0.0-py3.10.egg-info\n'}
+[3.100355] (robot_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[3.122132] (-) TimerEvent: {}
+[3.222618] (-) TimerEvent: {}
+[3.323229] (-) TimerEvent: {}
+[3.381676] (robot_sim) StdoutLine: {'line': b'Installing navigator script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim\n'}
+[3.382310] (robot_sim) StdoutLine: {'line': b'Installing obstacle_detector script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim\n'}
+[3.383567] (robot_sim) StdoutLine: {'line': b"writing list of installed files to '/home/shini/ros2_ws/build/robot_sim/install.log'\n"}
+[3.423534] (-) TimerEvent: {}
+[3.450097] (robot_sim) CommandEnded: {'returncode': 0}
+[3.501348] (robot_sim) JobEnded: {'identifier': 'robot_sim', 'rc': 0}
+[3.504572] (-) EventReactorShutdown: {}

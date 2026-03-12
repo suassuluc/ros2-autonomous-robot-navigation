@@ -1,0 +1,2 @@
+Invoking command in '/home/shini/ros2_ws/src/robot_sim': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shini/ros2_ws/build/robot_sim/pytest.xml --junit-prefix=robot_sim -o cache_dir=/home/shini/ros2_ws/build/robot_sim/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+Invoked command in '/home/shini/ros2_ws/src/robot_sim' returned '1': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shini/ros2_ws/build/robot_sim/pytest.xml --junit-prefix=robot_sim -o cache_dir=/home/shini/ros2_ws/build/robot_sim/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

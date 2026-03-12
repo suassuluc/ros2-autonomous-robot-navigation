@@ -1,0 +1,1 @@
+/home/shini/ros2_ws/src/robot_sim/launch/nav2.launch.py

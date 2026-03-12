@@ -1,0 +1,130 @@
+[0.823s] Invoking command in '/home/shini/ros2_ws/src/robot_sim': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shini/ros2_ws/build/robot_sim/pytest.xml --junit-prefix=robot_sim -o cache_dir=/home/shini/ros2_ws/build/robot_sim/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[2.368s] ============================= test session starts ==============================
+[2.369s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[2.369s] cachedir: /home/shini/ros2_ws/build/robot_sim/.pytest_cache
+[2.369s] rootdir: /home/shini/ros2_ws/src/robot_sim
+[2.369s] plugins: ament-lint-0.12.15, ament-pep257-0.12.15, ament-xmllint-0.12.15, launch-testing-ros-0.19.13, launch-testing-1.0.14, ament-copyright-0.12.15, ament-flake8-0.12.15, anyio-4.4.0, colcon-core-0.20.1, cov-3.0.0
+[2.369s] collected 3 items
+[2.370s] 
+[2.384s] test/test_copyright.py s                                                 [ 33%]
+[2.770s] test/test_flake8.py F                                                    [ 66%]
+[2.883s] =============================== warnings summary ===============================
+[2.883s] test/test_flake8.py::test_flake8
+[2.883s] test/test_flake8.py::test_flake8
+[2.884s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[2.884s] 
+[2.884s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[2.885s] test/test_pep257.py F                                                    [100%]
+[2.885s] 
+[2.886s] =================================== FAILURES ===================================
+[2.886s] _________________________________ test_flake8 __________________________________
+[2.886s] test/test_flake8.py:23: in test_flake8
+[2.886s]     assert rc == 0, \
+[2.887s] E   AssertionError: Found 9 code style errors / warnings:
+[2.887s] E     ./robot_sim/astar.py:105:100: E501 line too long (106 > 99 characters)
+[2.887s] E     ./robot_sim/nodes/navigator.py:45:100: E501 line too long (100 > 99 characters)
+[2.887s] E     ./robot_sim/nodes/navigator.py:64:100: E501 line too long (115 > 99 characters)
+[2.887s] E     ./robot_sim/nodes/navigator.py:76:100: E501 line too long (102 > 99 characters)
+[2.888s] E     ./robot_sim/nodes/navigator.py:93:100: E501 line too long (117 > 99 characters)
+[2.888s] E     ./robot_sim/nodes/navigator.py:180:100: E501 line too long (101 > 99 characters)
+[2.888s] E     ./robot_sim/nodes/navigator.py:221:100: E501 line too long (133 > 99 characters)
+[2.888s] E     ./robot_sim/nodes/navigator.py:229:100: E501 line too long (100 > 99 characters)
+[2.888s] E     ./robot_sim/nodes/navigator.py:233:100: E501 line too long (104 > 99 characters)
+[2.888s] E   assert 1 == 0
+[2.889s] ----------------------------- Captured stdout call -----------------------------
+[2.889s] 
+[2.889s] ./robot_sim/astar.py:105:100: E501 line too long (106 > 99 characters)
+[2.889s]     """
+[2.889s]     Find the reachable free cell that is closest to goal (BFS from start, then pick min distance to goal).
+[2.889s] 
+[2.889s]     Returns
+[2.889s]     -------
+[2.889s]         (row, col) of that cell, or None if start is not free.
+[2.889s]     """
+[2.890s]        
+[2.890s]                                                                                            ^
+[2.890s] 
+[2.890s] ./robot_sim/nodes/navigator.py:45:100: E501 line too long (100 > 99 characters)
+[2.890s]         self._replan_when_obstacle_sec = float(self.get_parameter('replan_when_obstacle_sec').value)
+[2.891s]                                                                                                    ^
+[2.891s] 
+[2.891s] ./robot_sim/nodes/navigator.py:64:100: E501 line too long (115 > 99 characters)
+[2.891s]         qos_goal = QoSProfile(depth=10, reliability=ReliabilityPolicy.BEST_EFFORT, history=HistoryPolicy.KEEP_LAST)
+[2.891s]                                                                                                    ^
+[2.891s] 
+[2.891s] ./robot_sim/nodes/navigator.py:76:100: E501 line too long (102 > 99 characters)
+[2.891s]         # Forçar tentativa de plano após 1.5 s (útil ao reiniciar o launch; dá tempo de /odom e /scan)
+[2.891s]                                                                                                    ^
+[2.892s] 
+[2.892s] ./robot_sim/nodes/navigator.py:93:100: E501 line too long (117 > 99 characters)
+[2.892s]         self.get_logger().info('Novo objetivo recebido: (%.2f, %.2f) — replanejando.' % (self._goal_x, self._goal_y))
+[2.892s]                                                                                                    ^
+[2.892s] 
+[2.892s] ./robot_sim/nodes/navigator.py:180:100: E501 line too long (101 > 99 characters)
+[2.892s]                         'Objetivo original bloqueado; indo ao ponto livre mais próximo (%.2f, %.2f).'
+[2.892s]                                                                                                    ^
+[2.892s] 
+[2.892s] ./robot_sim/nodes/navigator.py:221:100: E501 line too long (133 > 99 characters)
+[2.893s]         self.get_logger().info('Plano com %d waypoints (objetivo: %.2f, %.2f).' % (len(self._waypoints), self._goal_x, self._goal_y))
+[2.893s]                                                                                                    ^
+[2.893s] 
+[2.893s] ./robot_sim/nodes/navigator.py:229:100: E501 line too long (100 > 99 characters)
+[2.893s]         # Obstáculo muito perto: parar e, se estávamos seguindo rota, pedir replan (recalcular rota)
+[2.893s]                                                                                                    ^
+[2.893s] 
+[2.893s] ./robot_sim/nodes/navigator.py:233:100: E501 line too long (104 > 99 characters)
+[2.893s]             if self._waypoints and (now - self._last_obstacle_replan) >= self._replan_when_obstacle_sec:
+[2.893s]                                                                                                    ^
+[2.893s] 
+[2.893s] 9     E501 line too long (106 > 99 characters)
+[2.894s] 
+[2.894s] 12 files checked
+[2.894s] 9 errors
+[2.894s] 
+[2.894s] 'E'-type errors: 9
+[2.894s] 
+[2.894s] Checked files:
+[2.894s] 
+[2.895s] * ./setup.py
+[2.895s] * ./test/test_pep257.py
+[2.895s] * ./test/test_flake8.py
+[2.895s] * ./test/test_copyright.py
+[2.895s] * ./launch/navigation.launch.py
+[2.895s] * ./robot_sim/astar.py
+[2.895s] * ./robot_sim/grid_builder.py
+[2.895s] * ./robot_sim/__init__.py
+[2.896s] * ./robot_sim/pid_controller.py
+[2.896s] * ./robot_sim/nodes/obstacle_detector.py
+[2.896s] * ./robot_sim/nodes/navigator.py
+[2.896s] * ./robot_sim/nodes/__init__.py
+[2.896s] ----------------------------- Captured stderr call -----------------------------
+[2.896s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[2.896s] _________________________________ test_pep257 __________________________________
+[2.896s] test/test_pep257.py:23: in test_pep257
+[2.896s]     assert rc == 0, 'Found code style errors / warnings'
+[2.897s] E   AssertionError: Found code style errors / warnings
+[2.897s] E   assert 1 == 0
+[2.897s] ----------------------------- Captured stdout call -----------------------------
+[2.897s] checking ./launch/navigation.launch.py
+[2.897s] checking ./robot_sim/__init__.py
+[2.897s] checking ./robot_sim/astar.py
+[2.897s] ./robot_sim/astar.py:104 in public function `nearest_reachable_cell`: D413: Missing blank line after last section ('Returns')
+[2.897s] checking ./robot_sim/grid_builder.py
+[2.897s] checking ./robot_sim/nodes/__init__.py
+[2.897s] checking ./robot_sim/nodes/navigator.py
+[2.898s] checking ./robot_sim/nodes/obstacle_detector.py
+[2.898s] checking ./robot_sim/pid_controller.py
+[2.898s] checking ./setup.py
+[2.898s] checking ./test/test_copyright.py
+[2.898s] checking ./test/test_flake8.py
+[2.898s] checking ./test/test_pep257.py
+[2.898s] checking test/test_copyright.py
+[2.899s] checking test/test_flake8.py
+[2.899s] checking test/test_pep257.py
+[2.899s] 1 errors
+[2.899s] ------ generated xml file: /home/shini/ros2_ws/build/robot_sim/pytest.xml ------
+[2.899s] =========================== short test summary info ============================
+[2.899s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 9 code style ...
+[2.899s] FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...
+[2.900s] =================== 2 failed, 1 skipped, 2 warnings in 0.78s ===================
+[3.093s] Invoked command in '/home/shini/ros2_ws/src/robot_sim' returned '1': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shini/ros2_ws/build/robot_sim/pytest.xml --junit-prefix=robot_sim -o cache_dir=/home/shini/ros2_ws/build/robot_sim/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

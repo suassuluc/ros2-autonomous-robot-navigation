@@ -1,0 +1,36 @@
+[1.302s] Invoking command in '/home/shini/ros2_ws/build/robot_sim': PYTHONPATH=/home/shini/ros2_ws/build/robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shini/ros2_ws/build/robot_sim/build --no-deps symlink_data --force
+[1.569s] running develop
+[1.751s] running egg_info
+[1.764s] writing robot_sim.egg-info/PKG-INFO
+[1.765s] writing dependency_links to robot_sim.egg-info/dependency_links.txt
+[1.765s] writing entry points to robot_sim.egg-info/entry_points.txt
+[1.765s] writing requirements to robot_sim.egg-info/requires.txt
+[1.766s] writing top-level names to robot_sim.egg-info/top_level.txt
+[1.794s] reading manifest file 'robot_sim.egg-info/SOURCES.txt'
+[1.795s] writing manifest file 'robot_sim.egg-info/SOURCES.txt'
+[1.811s] running build_ext
+[1.813s] Creating /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot-sim.egg-link (link to .)
+[1.814s] Installing cmd_vel_mixer script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.814s] Installing exploration_goal script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.814s] Installing navigator script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.814s] Installing obstacle_avoider script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.815s] Installing obstacle_detector script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.815s] Installing vision_node script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[1.815s] 
+[1.815s] Installed /home/shini/ros2_ws/build/robot_sim
+[1.815s] running symlink_data
+[1.816s] symbolically linking /home/shini/ros2_ws/build/robot_sim/resource/robot_sim -> /home/shini/ros2_ws/install/robot_sim/share/ament_index/resource_index/packages
+[1.816s] symbolically linking /home/shini/ros2_ws/build/robot_sim/package.xml -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim
+[1.816s] symbolically linking /home/shini/ros2_ws/build/robot_sim/launch/vision.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.816s] symbolically linking /home/shini/ros2_ws/build/robot_sim/launch/navigation.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.816s] symbolically linking /home/shini/ros2_ws/build/robot_sim/launch/spawn_stable_4wd.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.817s] symbolically linking /home/shini/ros2_ws/build/robot_sim/launch/teleop_with_avoider.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.817s] symbolically linking /home/shini/ros2_ws/build/robot_sim/launch/avoider_exploration.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.817s] symbolically linking /home/shini/ros2_ws/build/robot_sim/launch/avoider.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.818s] symbolically linking /home/shini/ros2_ws/build/robot_sim/launch/stable_4wd_world.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.818s] symbolically linking /home/shini/ros2_ws/build/robot_sim/launch/nav2.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.818s] symbolically linking /home/shini/ros2_ws/build/robot_sim/launch/slam.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[1.818s] symbolically linking /home/shini/ros2_ws/build/robot_sim/config/nav2_params.yaml -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/config
+[1.819s] symbolically linking /home/shini/ros2_ws/build/robot_sim/config/slam_params.yaml -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/config
+[1.819s] symbolically linking /home/shini/ros2_ws/build/robot_sim/models/stable_4wd_robot/model.sdf -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/models/stable_4wd_robot
+[1.849s] Invoked command in '/home/shini/ros2_ws/build/robot_sim' returned '0': PYTHONPATH=/home/shini/ros2_ws/build/robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shini/ros2_ws/build/robot_sim/build --no-deps symlink_data --force

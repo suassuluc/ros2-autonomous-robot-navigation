@@ -1,0 +1,32 @@
+[2.489s] Invoking command in '/home/shini/ros2_ws/src/robot_sim': PYTHONPATH=/home/shini/ros2_ws/build/robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sim build --build-base /home/shini/ros2_ws/build/robot_sim/build install --record /home/shini/ros2_ws/build/robot_sim/install.log --single-version-externally-managed install_data
+[2.913s] running egg_info
+[2.949s] writing ../../build/robot_sim/robot_sim.egg-info/PKG-INFO
+[2.951s] writing dependency_links to ../../build/robot_sim/robot_sim.egg-info/dependency_links.txt
+[2.953s] writing entry points to ../../build/robot_sim/robot_sim.egg-info/entry_points.txt
+[2.954s] writing requirements to ../../build/robot_sim/robot_sim.egg-info/requires.txt
+[2.955s] writing top-level names to ../../build/robot_sim/robot_sim.egg-info/top_level.txt
+[3.016s] reading manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'
+[3.018s] writing manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'
+[3.018s] running build
+[3.019s] running build_py
+[3.019s] copying robot_sim/astar.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+[3.019s] copying robot_sim/grid_builder.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+[3.020s] copying robot_sim/__init__.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+[3.020s] copying robot_sim/pid_controller.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim
+[3.020s] copying robot_sim/nodes/obstacle_detector.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+[3.021s] copying robot_sim/nodes/navigator.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+[3.021s] copying robot_sim/nodes/__init__.py -> /home/shini/ros2_ws/build/robot_sim/build/lib/robot_sim/nodes
+[3.023s] running install
+[3.038s] running install_lib
+[3.066s] running install_data
+[3.066s] copying resource/robot_sim -> /home/shini/ros2_ws/install/robot_sim/share/ament_index/resource_index/packages
+[3.066s] copying package.xml -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim
+[3.067s] copying launch/navigation.launch.py -> /home/shini/ros2_ws/install/robot_sim/share/robot_sim/launch
+[3.067s] running install_egg_info
+[3.095s] removing '/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim-0.0.0-py3.10.egg-info' (and everything under it)
+[3.096s] Copying ../../build/robot_sim/robot_sim.egg-info to /home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages/robot_sim-0.0.0-py3.10.egg-info
+[3.099s] running install_scripts
+[3.381s] Installing navigator script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[3.381s] Installing obstacle_detector script to /home/shini/ros2_ws/install/robot_sim/lib/robot_sim
+[3.382s] writing list of installed files to '/home/shini/ros2_ws/build/robot_sim/install.log'
+[3.450s] Invoked command in '/home/shini/ros2_ws/src/robot_sim' returned '0': PYTHONPATH=/home/shini/ros2_ws/build/robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sim build --build-base /home/shini/ros2_ws/build/robot_sim/build install --record /home/shini/ros2_ws/build/robot_sim/install.log --single-version-externally-managed install_data

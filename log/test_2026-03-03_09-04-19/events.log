@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (robot_sim) JobQueued: {'identifier': 'robot_sim', 'dependencies': OrderedDict([('robot_sim', '/home/shini/ros2_ws/install/robot_sim')])}
+[0.000393] (robot_sim) JobStarted: {'identifier': 'robot_sim'}
+[0.099410] (-) TimerEvent: {}
+[0.199653] (-) TimerEvent: {}
+[0.241854] (robot_sim) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/shini/ros2_ws/src/robot_sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/lucas/AppData/Local/Programs/cursor', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'shini', 'PHP_INI_SCAN_DIR': '/home/shini/.config/herd-lite/bin:/home/shini/.config/herd-lite/bin:', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'CI': '1', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/shini', 'OLDPWD': '/home/shini/ros2_ws', 'NVM_BIN': '/home/shini/.nvm/versions/node/v22.15.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-005200e8-5628-407e-ae69-5203939eb9d0.sock', 'NVM_INC': '/home/shini/.nvm/versions/node/v22.15.0/include/node', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/shini/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/shini/ros2_ws/install', 'ROS_DISTRO': 'humble', 'OVSX_REGISTRY_URL': 'https://open-vsx.org', 'LOGNAME': 'shini', 'FORCE_COLOR': '0', 'NAME': 'lucasnote', 'WSL_INTEROP': '/run/WSL/1703_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'dumb', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/shini/.local/bin:/home/shini/.config/herd-lite/bin:/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/bin/remote-cli:/home/shini/.local/bin:/opt/ros/humble/bin:/home/shini/.config/herd-lite/bin:/home/shini/.nvm/versions/node/v22.15.0/bin:/home/shini/.cursor-server/bin/7d96c2a03bb088ad367615e9da1a3fe20fbbc6a0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/xampp/php:/mnt/c/composer:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/lucas/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/lucas/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Nefarius Software Solutions/Nefarius VirtualPad Driver Runtime/runtime/x64:/mnt/c/Users/lucas/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/lucas/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/lucas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lucas/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/lucas/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lucas/AppData/Roaming/npm:/mnt/c/Users/lucas/AppData/Local/Programs/cursor/resources/app/bin:/mnt/d/SteamLibrary/steamapps/common/DSX/Main_v3_Beta/:/mnt/d/SteamLibrary/steamapps/common/DSX/Main_v3_Beta/Console:/snap/bin', 'WT_SESSION': '825f5c8e-452d-4b68-84fd-0009731bdef6', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/shini/ros2_ws/install/robot_sim:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/shini/ros2_ws/build/robot_sim', 'TURTLEBOT3_MODEL': 'burger', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shini/ros2_ws/install/robot_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', '_ZO_DOCTOR': '0', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/shini/ros2_ws/build/robot_sim/pytest.xml --junit-prefix=robot_sim -o cache_dir=/home/shini/ros2_ws/build/robot_sim/.pytest_cache'}, 'shell': False}
+[0.300068] (-) TimerEvent: {}
+[0.400450] (-) TimerEvent: {}
+[0.500733] (-) TimerEvent: {}
+[0.600921] (-) TimerEvent: {}
+[0.676575] (robot_sim) StdoutLine: {'line': b'============================= test session starts ==============================\n'}
+[0.677233] (robot_sim) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.677330] (robot_sim) StdoutLine: {'line': b'cachedir: /home/shini/ros2_ws/build/robot_sim/.pytest_cache\n'}
+[0.677385] (robot_sim) StdoutLine: {'line': b'rootdir: /home/shini/ros2_ws/src/robot_sim\n'}
+[0.677436] (robot_sim) StdoutLine: {'line': b'plugins: ament-lint-0.12.15, ament-pep257-0.12.15, ament-xmllint-0.12.15, launch-testing-ros-0.19.13, launch-testing-1.0.14, ament-copyright-0.12.15, ament-flake8-0.12.15, anyio-4.4.0, colcon-core-0.20.1, cov-3.0.0\n'}
+[0.677492] (robot_sim) StdoutLine: {'line': b'collected 3 items\n'}
+[0.677543] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.681055] (robot_sim) StdoutLine: {'line': b'test/test_copyright.py s                                                 [ 33%]\n'}
+[0.701038] (-) TimerEvent: {}
+[0.801298] (-) TimerEvent: {}
+[0.821069] (robot_sim) StdoutLine: {'line': b'test/test_flake8.py F                                                    [ 66%]\n'}
+[0.873249] (robot_sim) StderrLine: {'line': b'=============================== warnings summary ===============================\n'}
+[0.873491] (robot_sim) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.873544] (robot_sim) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.873646] (robot_sim) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[0.873748] (robot_sim) StderrLine: {'line': b'\n'}
+[0.873850] (robot_sim) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[0.874370] (robot_sim) StdoutLine: {'line': b'test/test_pep257.py F                                                    [100%]\n'}
+[0.874495] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.874541] (robot_sim) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.874577] (robot_sim) StdoutLine: {'line': b'_________________________________ test_flake8 __________________________________\n'}
+[0.874612] (robot_sim) StdoutLine: {'line': b'test/test_flake8.py:23: in test_flake8\n'}
+[0.874646] (robot_sim) StdoutLine: {'line': b'    assert rc == 0, \\\n'}
+[0.874681] (robot_sim) StdoutLine: {'line': b'E   AssertionError: Found 4 code style errors / warnings:\n'}
+[0.874715] (robot_sim) StdoutLine: {'line': b'E     ./launch/navigation.launch.py:14:1: E302 expected 2 blank lines, found 0\n'}
+[0.874750] (robot_sim) StdoutLine: {'line': b"E     ./robot_sim/nodes/obstacle_detector.py:44:9: F841 local variable 'angle_max' is assigned to but never used\n"}
+[0.874784] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/nodes/navigator.py:166:100: E501 line too long (125 > 99 characters)\n'}
+[0.874818] (robot_sim) StdoutLine: {'line': b'E     ./robot_sim/nodes/navigator.py:168:100: E501 line too long (101 > 99 characters)\n'}
+[0.874852] (robot_sim) StdoutLine: {'line': b'E   assert 1 == 0\n'}
+[0.874891] (robot_sim) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.874926] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.874961] (robot_sim) StdoutLine: {'line': b'./launch/navigation.launch.py:14:1: E302 expected 2 blank lines, found 0\n'}
+[0.874995] (robot_sim) StdoutLine: {'line': b'def generate_launch_description():\n'}
+[0.875028] (robot_sim) StdoutLine: {'line': b'^\n'}
+[0.875062] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.875096] (robot_sim) StdoutLine: {'line': b"./robot_sim/nodes/obstacle_detector.py:44:9: F841 local variable 'angle_max' is assigned to but never used\n"}
+[0.875129] (robot_sim) StdoutLine: {'line': b'        angle_max = msg.angle_max\n'}
+[0.875162] (robot_sim) StdoutLine: {'line': b'        ^\n'}
+[0.875196] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.875230] (robot_sim) StdoutLine: {'line': b'./robot_sim/nodes/navigator.py:166:100: E501 line too long (125 > 99 characters)\n'}
+[0.875263] (robot_sim) StdoutLine: {'line': b'                if -half_rad <= angle <= half_rad and self._scan.range_min <= r <= self._scan.range_max and math.isfinite(r):\n'}
+[0.875297] (robot_sim) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[0.875332] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.875366] (robot_sim) StdoutLine: {'line': b'./robot_sim/nodes/navigator.py:168:100: E501 line too long (101 > 99 characters)\n'}
+[0.875401] (robot_sim) StdoutLine: {'line': b"            self._obstacle_from_scan = min_d != float('inf') and min_d < self._obstacle_stop_distance\n"}
+[0.875437] (robot_sim) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[0.875472] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.875505] (robot_sim) StdoutLine: {'line': b'1     E302 expected 2 blank lines, found 0\n'}
+[0.875540] (robot_sim) StdoutLine: {'line': b'2     E501 line too long (125 > 99 characters)\n'}
+[0.875574] (robot_sim) StdoutLine: {'line': b"1     F841 local variable 'angle_max' is assigned to but never used\n"}
+[0.875609] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.875644] (robot_sim) StdoutLine: {'line': b'12 files checked\n'}
+[0.875678] (robot_sim) StdoutLine: {'line': b'4 errors\n'}
+[0.875712] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.875752] (robot_sim) StdoutLine: {'line': b"'E'-type errors: 3\n"}
+[0.875788] (robot_sim) StdoutLine: {'line': b"'F'-type errors: 1\n"}
+[0.875887] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.875949] (robot_sim) StdoutLine: {'line': b'Checked files:\n'}
+[0.876014] (robot_sim) StdoutLine: {'line': b'\n'}
+[0.876058] (robot_sim) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.876096] (robot_sim) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.876149] (robot_sim) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.876191] (robot_sim) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.876241] (robot_sim) StdoutLine: {'line': b'* ./launch/navigation.launch.py\n'}
+[0.876284] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/astar.py\n'}
+[0.876323] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/grid_builder.py\n'}
+[0.876362] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/__init__.py\n'}
+[0.876407] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/pid_controller.py\n'}
+[0.876449] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/nodes/obstacle_detector.py\n'}
+[0.876487] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/nodes/navigator.py\n'}
+[0.876525] (robot_sim) StdoutLine: {'line': b'* ./robot_sim/nodes/__init__.py\n'}
+[0.876584] (robot_sim) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[0.876623] (robot_sim) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.876662] (robot_sim) StdoutLine: {'line': b'_________________________________ test_pep257 __________________________________\n'}
+[0.876701] (robot_sim) StdoutLine: {'line': b'test/test_pep257.py:23: in test_pep257\n'}
+[0.876740] (robot_sim) StdoutLine: {'line': b"    assert rc == 0, 'Found code style errors / warnings'\n"}
+[0.876779] (robot_sim) StdoutLine: {'line': b'E   AssertionError: Found code style errors / warnings\n'}
+[0.876862] (robot_sim) StdoutLine: {'line': b'E   assert 1 == 0\n'}
+[0.876968] (robot_sim) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.877067] (robot_sim) StdoutLine: {'line': b'checking ./launch/navigation.launch.py\n'}
+[0.877150] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/__init__.py\n'}
+[0.877234] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/astar.py\n'}
+[0.877347] (robot_sim) StdoutLine: {'line': b"./robot_sim/astar.py:23 in public function `astar`: D401: First line should be in imperative mood; try rephrasing (found 'A')\n"}
+[0.877440] (robot_sim) StdoutLine: {'line': b"./robot_sim/astar.py:23 in public function `astar`: D413: Missing blank line after last section ('Returns')\n"}
+[0.877517] (robot_sim) StdoutLine: {'line': b"./robot_sim/astar.py:23 in public function `astar`: D407: Missing dashed underline after section ('Returns')\n"}
+[0.877602] (robot_sim) StdoutLine: {'line': b"./robot_sim/astar.py:23 in public function `astar`: D406: Section name should end with a newline ('Returns', not 'Returns:')\n"}
+[0.877667] (robot_sim) StdoutLine: {'line': b"./robot_sim/astar.py:100 in public function `world_to_grid`: D401: First line should be in imperative mood (perhaps 'Convert', not 'Converte')\n"}
+[0.877731] (robot_sim) StdoutLine: {'line': b"./robot_sim/astar.py:111 in public function `grid_to_world`: D401: First line should be in imperative mood (perhaps 'Convert', not 'Converte')\n"}
+[0.877791] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/grid_builder.py\n'}
+[0.877902] (robot_sim) StdoutLine: {'line': b"./robot_sim/grid_builder.py:25 in public function `scan_to_grid`: D401: First line should be in imperative mood (perhaps 'Convert', not 'Converte')\n"}
+[0.877977] (robot_sim) StdoutLine: {'line': b"./robot_sim/grid_builder.py:25 in public function `scan_to_grid`: D413: Missing blank line after last section ('Returns')\n"}
+[0.878052] (robot_sim) StdoutLine: {'line': b"./robot_sim/grid_builder.py:25 in public function `scan_to_grid`: D407: Missing dashed underline after section ('Returns')\n"}
+[0.878113] (robot_sim) StdoutLine: {'line': b"./robot_sim/grid_builder.py:25 in public function `scan_to_grid`: D406: Section name should end with a newline ('Returns', not 'Returns:')\n"}
+[0.878169] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/nodes/__init__.py\n'}
+[0.878229] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/nodes/navigator.py\n'}
+[0.878283] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/nodes/obstacle_detector.py\n'}
+[0.878339] (robot_sim) StdoutLine: {'line': b'checking ./robot_sim/pid_controller.py\n'}
+[0.878397] (robot_sim) StdoutLine: {'line': b"./robot_sim/pid_controller.py:60 in public method `compute`: D413: Missing blank line after last section ('Returns')\n"}
+[0.878451] (robot_sim) StdoutLine: {'line': b"./robot_sim/pid_controller.py:60 in public method `compute`: D407: Missing dashed underline after section ('Returns')\n"}
+[0.878490] (robot_sim) StdoutLine: {'line': b"./robot_sim/pid_controller.py:60 in public method `compute`: D406: Section name should end with a newline ('Returns', not 'Returns:')\n"}
+[0.878526] (robot_sim) StdoutLine: {'line': b"./robot_sim/pid_controller.py:121 in public method `is_waypoint_reached`: D401: First line should be in imperative mood; try rephrasing (found 'True')\n"}
+[0.878563] (robot_sim) StdoutLine: {'line': b'checking ./setup.py\n'}
+[0.878598] (robot_sim) StdoutLine: {'line': b'checking ./test/test_copyright.py\n'}
+[0.878632] (robot_sim) StdoutLine: {'line': b'checking ./test/test_flake8.py\n'}
+[0.878665] (robot_sim) StdoutLine: {'line': b'checking ./test/test_pep257.py\n'}
+[0.878701] (robot_sim) StdoutLine: {'line': b'checking test/test_copyright.py\n'}
+[0.878737] (robot_sim) StdoutLine: {'line': b'checking test/test_flake8.py\n'}
+[0.878785] (robot_sim) StdoutLine: {'line': b'checking test/test_pep257.py\n'}
+[0.878824] (robot_sim) StdoutLine: {'line': b'14 errors\n'}
+[0.878861] (robot_sim) StdoutLine: {'line': b'------ generated xml file: /home/shini/ros2_ws/build/robot_sim/pytest.xml ------\n'}
+[0.878898] (robot_sim) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[0.878933] (robot_sim) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 4 code style ...\n'}
+[0.878968] (robot_sim) StdoutLine: {'line': b'FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...\n'}
+[0.879003] (robot_sim) StdoutLine: {'line': b'=================== 2 failed, 1 skipped, 2 warnings in 0.25s ===================\n'}
+[0.901454] (-) TimerEvent: {}
+[0.978785] (robot_sim) CommandEnded: {'returncode': 1}
+[0.979334] (robot_sim) TestFailure: {'identifier': 'robot_sim'}
+[0.979476] (robot_sim) JobEnded: {'identifier': 'robot_sim', 'rc': 0}
+[0.979995] (-) EventReactorShutdown: {}

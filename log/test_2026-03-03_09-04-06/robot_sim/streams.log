@@ -1,0 +1,114 @@
+[0.241s] Invoking command in '/home/shini/ros2_ws/src/robot_sim': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shini/ros2_ws/build/robot_sim/pytest.xml --junit-prefix=robot_sim -o cache_dir=/home/shini/ros2_ws/build/robot_sim/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[0.840s] ============================= test session starts ==============================
+[0.840s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.840s] cachedir: /home/shini/ros2_ws/build/robot_sim/.pytest_cache
+[0.840s] rootdir: /home/shini/ros2_ws/src/robot_sim
+[0.841s] plugins: ament-lint-0.12.15, ament-pep257-0.12.15, ament-xmllint-0.12.15, launch-testing-ros-0.19.13, launch-testing-1.0.14, ament-copyright-0.12.15, ament-flake8-0.12.15, anyio-4.4.0, colcon-core-0.20.1, cov-3.0.0
+[0.841s] collected 3 items
+[0.841s] 
+[0.844s] test/test_copyright.py s                                                 [ 33%]
+[1.002s] test/test_flake8.py F                                                    [ 66%]
+[1.048s] =============================== warnings summary ===============================
+[1.048s] test/test_flake8.py::test_flake8
+[1.048s] test/test_flake8.py::test_flake8
+[1.048s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.048s] 
+[1.048s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.049s] test/test_pep257.py F                                                    [100%]
+[1.049s] 
+[1.049s] =================================== FAILURES ===================================
+[1.049s] _________________________________ test_flake8 __________________________________
+[1.049s] test/test_flake8.py:23: in test_flake8
+[1.049s]     assert rc == 0, \
+[1.049s] E   AssertionError: Found 4 code style errors / warnings:
+[1.049s] E     ./launch/navigation.launch.py:14:1: E302 expected 2 blank lines, found 0
+[1.049s] E     ./robot_sim/nodes/obstacle_detector.py:44:9: F841 local variable 'angle_max' is assigned to but never used
+[1.049s] E     ./robot_sim/nodes/navigator.py:166:100: E501 line too long (125 > 99 characters)
+[1.049s] E     ./robot_sim/nodes/navigator.py:168:100: E501 line too long (101 > 99 characters)
+[1.049s] E   assert 1 == 0
+[1.049s] ----------------------------- Captured stdout call -----------------------------
+[1.049s] 
+[1.049s] ./launch/navigation.launch.py:14:1: E302 expected 2 blank lines, found 0
+[1.049s] def generate_launch_description():
+[1.049s] ^
+[1.050s] 
+[1.050s] ./robot_sim/nodes/obstacle_detector.py:44:9: F841 local variable 'angle_max' is assigned to but never used
+[1.050s]         angle_max = msg.angle_max
+[1.050s]         ^
+[1.050s] 
+[1.050s] ./robot_sim/nodes/navigator.py:166:100: E501 line too long (125 > 99 characters)
+[1.050s]                 if -half_rad <= angle <= half_rad and self._scan.range_min <= r <= self._scan.range_max and math.isfinite(r):
+[1.050s]                                                                                                    ^
+[1.050s] 
+[1.050s] ./robot_sim/nodes/navigator.py:168:100: E501 line too long (101 > 99 characters)
+[1.050s]             self._obstacle_from_scan = min_d != float('inf') and min_d < self._obstacle_stop_distance
+[1.050s]                                                                                                    ^
+[1.050s] 
+[1.050s] 1     E302 expected 2 blank lines, found 0
+[1.050s] 2     E501 line too long (125 > 99 characters)
+[1.050s] 1     F841 local variable 'angle_max' is assigned to but never used
+[1.050s] 
+[1.050s] 12 files checked
+[1.050s] 4 errors
+[1.050s] 
+[1.050s] 'E'-type errors: 3
+[1.050s] 'F'-type errors: 1
+[1.050s] 
+[1.050s] Checked files:
+[1.050s] 
+[1.050s] * ./setup.py
+[1.050s] * ./test/test_pep257.py
+[1.050s] * ./test/test_flake8.py
+[1.050s] * ./test/test_copyright.py
+[1.050s] * ./launch/navigation.launch.py
+[1.050s] * ./robot_sim/astar.py
+[1.051s] * ./robot_sim/grid_builder.py
+[1.051s] * ./robot_sim/__init__.py
+[1.051s] * ./robot_sim/pid_controller.py
+[1.051s] * ./robot_sim/nodes/obstacle_detector.py
+[1.051s] * ./robot_sim/nodes/navigator.py
+[1.051s] * ./robot_sim/nodes/__init__.py
+[1.051s] ----------------------------- Captured stderr call -----------------------------
+[1.051s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.051s] _________________________________ test_pep257 __________________________________
+[1.051s] test/test_pep257.py:23: in test_pep257
+[1.051s]     assert rc == 0, 'Found code style errors / warnings'
+[1.051s] E   AssertionError: Found code style errors / warnings
+[1.051s] E   assert 1 == 0
+[1.051s] ----------------------------- Captured stdout call -----------------------------
+[1.051s] checking ./launch/navigation.launch.py
+[1.051s] checking ./robot_sim/__init__.py
+[1.051s] checking ./robot_sim/astar.py
+[1.051s] ./robot_sim/astar.py:23 in public function `astar`: D401: First line should be in imperative mood; try rephrasing (found 'A')
+[1.051s] ./robot_sim/astar.py:23 in public function `astar`: D413: Missing blank line after last section ('Returns')
+[1.051s] ./robot_sim/astar.py:23 in public function `astar`: D407: Missing dashed underline after section ('Returns')
+[1.051s] ./robot_sim/astar.py:23 in public function `astar`: D406: Section name should end with a newline ('Returns', not 'Returns:')
+[1.051s] ./robot_sim/astar.py:100 in public function `world_to_grid`: D401: First line should be in imperative mood (perhaps 'Convert', not 'Converte')
+[1.051s] ./robot_sim/astar.py:111 in public function `grid_to_world`: D401: First line should be in imperative mood (perhaps 'Convert', not 'Converte')
+[1.051s] checking ./robot_sim/grid_builder.py
+[1.051s] ./robot_sim/grid_builder.py:25 in public function `scan_to_grid`: D401: First line should be in imperative mood (perhaps 'Convert', not 'Converte')
+[1.051s] ./robot_sim/grid_builder.py:25 in public function `scan_to_grid`: D413: Missing blank line after last section ('Returns')
+[1.051s] ./robot_sim/grid_builder.py:25 in public function `scan_to_grid`: D407: Missing dashed underline after section ('Returns')
+[1.051s] ./robot_sim/grid_builder.py:25 in public function `scan_to_grid`: D406: Section name should end with a newline ('Returns', not 'Returns:')
+[1.051s] checking ./robot_sim/nodes/__init__.py
+[1.051s] checking ./robot_sim/nodes/navigator.py
+[1.051s] checking ./robot_sim/nodes/obstacle_detector.py
+[1.052s] checking ./robot_sim/pid_controller.py
+[1.052s] ./robot_sim/pid_controller.py:60 in public method `compute`: D413: Missing blank line after last section ('Returns')
+[1.052s] ./robot_sim/pid_controller.py:60 in public method `compute`: D407: Missing dashed underline after section ('Returns')
+[1.052s] ./robot_sim/pid_controller.py:60 in public method `compute`: D406: Section name should end with a newline ('Returns', not 'Returns:')
+[1.052s] ./robot_sim/pid_controller.py:121 in public method `is_waypoint_reached`: D401: First line should be in imperative mood; try rephrasing (found 'True')
+[1.052s] checking ./setup.py
+[1.052s] checking ./test/test_copyright.py
+[1.052s] checking ./test/test_flake8.py
+[1.052s] checking ./test/test_pep257.py
+[1.052s] checking test/test_copyright.py
+[1.052s] checking test/test_flake8.py
+[1.052s] checking test/test_pep257.py
+[1.052s] 14 errors
+[1.052s] ------ generated xml file: /home/shini/ros2_ws/build/robot_sim/pytest.xml ------
+[1.052s] =========================== short test summary info ============================
+[1.052s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 4 code style ...
+[1.052s] FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...
+[1.052s] =================== 2 failed, 1 skipped, 2 warnings in 0.32s ===================
+[1.141s] Invoked command in '/home/shini/ros2_ws/src/robot_sim' returned '1': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shini/ros2_ws/build/robot_sim/pytest.xml --junit-prefix=robot_sim -o cache_dir=/home/shini/ros2_ws/build/robot_sim/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
